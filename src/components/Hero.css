@@ -1,0 +1,91 @@
+.solid-color{
+    margin: 0 !important;
+    width: 600px;
+    height: 800px;
+    background-color: #E6DACE;
+    position: relative;
+}
+.intro{
+    height: 500px;
+    position: absolute;
+    display: flex;
+    left: 300px;
+    top: 150px;
+    justify-content: space-between;
+}
+.intro-design{
+    height: 500px;
+    width: 350px !important;
+    background-color: #f4ece6;
+    box-shadow: 0px 0px 10px  rgb(152, 152, 152);
+}
+.profile-photo{
+    background-image: url("/src/images/rahul\ 3.png");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 40px auto;
+}
+.intro-design-name{
+    padding-bottom: 20px;
+}
+.intro-design-profession{
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.social-media-icons{
+    margin-top: 60px;
+    background-color: white;
+}
+.fa-facebook-f, .fa-twitter,
+.fa-linkedin-in, .fa-instagram{
+    font-size: 25px;
+    margin: 15px 15px;
+}
+.intro-details{
+    width: 450px !important;
+    padding: 0 30px;
+    text-align: left;
+}
+.intro-details-heading-1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.intro-details-heading-2{
+    font-size: 30px;
+    margin-top: -20px;
+}
+.button-resume, .button-projects{
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.button-resume{
+    background-color: rgb(18, 87, 225);
+    color: white;
+    border: 2px solid rgb(18, 87, 225);
+    transition: 0.5s;
+}
+.button-resume:hover{
+    background-color: white;
+    color: black;
+}
+.button-projects{
+    margin-left: 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+.button-projects:hover{
+    background-color: rgb(18, 87, 225);
+    color: white;
+    border: hidden;
+}
+.intro-details-para-1, .intro-details-para-2{
+    font-family: Calibri Light;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* text-align: justify; */
+}

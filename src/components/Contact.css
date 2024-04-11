@@ -1,0 +1,60 @@
+.contact{
+    height: 1000px;
+    width: 100%;
+    background-color: #E6DACE;
+    position: relative;
+}
+
+.contact-contact-me {
+    position: absolute;
+    width: 500px; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    background-color: white;
+    padding: 100px;
+    box-shadow: 0px 0px 20px 0px gray;
+}
+.contact-contact-me h2{
+    margin-bottom: 100px;
+}
+.contact-inputbox{
+    height: 50px;
+    width: 100%; 
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.contact-inputbox:focus,.contact-inputbox:hover{
+    outline: none !important;
+    border-bottom: 3px solid rgb(18, 87, 225);
+}
+.message{
+    min-height: 90px;
+    min-width: 500px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 20px;
+
+}
+.contact-submit-button {
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(18, 87, 225);
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgb(18, 87, 225);
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.contact-submit-button:hover{
+    background-color: white;
+    color: black;
+    
+}

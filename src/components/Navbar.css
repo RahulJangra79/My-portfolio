@@ -1,0 +1,34 @@
+.navbar{
+    height: 120px;
+    width: 100% !important;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.navbar-myname{
+    width: 500px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.navbar-profession{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.navbar-menu{
+    margin-right: 5%;
+}
+.navbar-menu ul{
+    list-style: none;
+    display: flex;
+}
+.navbar-item{
+    margin-left: 30px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: black;
+}
