@@ -8,7 +8,7 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-heading">
           <p className="navbar-myname">
-            Rahul Jangra <span className="navbar-profession">/ FRONTEND DEVELOPER</span>
+            Rahul Jangra <span className="navbar-profession">/ WEB DEVELOPER</span>
           </p>
         </div>
 

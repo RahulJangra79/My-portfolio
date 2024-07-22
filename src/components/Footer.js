@@ -17,7 +17,7 @@ function Footer() {
             </div>
             <div className='footer-email'>
                 <h3 className='footer-heading'>E-mail</h3>
-                <a href="mailto:rjangra4015@gmail.com">rjangra4015@gmail</a>
+                <a href="mailto:rjangra4015@gmail.com">rjangra4015@gmail.com</a>
             </div>
             <div className='footer-social-media'>
                 <h3 className='footer-heading'>Follow</h3>
